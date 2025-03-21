@@ -1,0 +1,33 @@
+go-chess/
+├── main.py                 # 程序入口
+├── config/                 # 配置管理
+│   ├── __init__.py
+│   ├── settings.py         # 程序设置
+│   └── style.qss           # 界面样式表
+├── core/                   # 核心逻辑层
+│   ├── __init__.py
+│   ├── game_logic.py       # 围棋规则实现
+│   ├── ai_engine.py        # AI算法接口
+│   └── network.py          # 网络通信模块
+├── models/                 # 数据模型
+│   ├── __init__.py
+│   ├── game_state.py       # 游戏状态模型
+│   └── player.py           # 玩家信息模型
+├── view/                   # 视图层
+│   ├── __init__.py
+│   ├── main_window.py      # 主界面
+│   ├── local_game_ui.py    # 本地对战界面
+│   ├── ai_game_ui.py       # 人机对战界面
+│   └── online_game_ui.py   # 联机对战界面
+├── controllers/            # 控制层
+│   ├── __init__.py
+│   ├── game_controller.py  # 游戏流程控制
+│   └── event_handler.py    # 事件路由
+├── utils/                  # 工具模块
+│   ├── __init__.py
+│   ├── logger.py           # 日志系统
+│   ├── validator.py        # 输入验证
+│   └── sound_manager.py    # 音效管理
+└── resources/              # 资源文件
+    ├── icons/              # 图标资源
+    └── sounds/             # 音效文件
